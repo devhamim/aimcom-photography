@@ -17,9 +17,9 @@
                     </div>
                 </div>
             @endforeach
-            <div class="my-3">
-                {{ $albums->links() }}
-            </div>
+        </div>
+        <div class="my-3 text-center">
+            {{ $albums->links() }}
         </div>
     </div>
 </section>

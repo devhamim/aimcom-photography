@@ -53,7 +53,7 @@
         <div class="row section-padding">
             <div class="col-md-5">
                 <div class="about-img about-p3-img">
-                    <img src="assets/img/section-img/about-p-4.jpg" alt="">
+                    <img src="{{ asset('frontend') }}/assets/img/section-img/about-p-4.jpg" alt="">
                 </div>
 
             </div>
@@ -102,7 +102,7 @@
             </div>
             <div class="col-md-5">
                 <div class="about-img about-p3-img">
-                    <img src="assets/img/section-img/about-p-5.jpg" alt="">
+                    <img src="{{ asset('frontend') }}/assets/img/section-img/about-p-5.jpg" alt="">
                 </div>
 
             </div>
@@ -125,7 +125,7 @@
                             Love it. But above all, know light. Know it for all you
                             are worth, and you will know the key to photography.</p>
                         <div class="apos-img">
-                            <img src="assets/img/section-img/about-p-6.jpg" alt="">
+                            <img src="{{ asset('frontend') }}/assets/img/section-img/about-p-6.jpg" alt="">
                         </div>
 
 
