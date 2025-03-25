@@ -474,8 +474,6 @@
 	}
 	.vmm-header .logo img {
 		max-width: inherit;
-		max-height: 90px;
-		width: auto;
 	}
 	.burger-menu {
 		display: none;

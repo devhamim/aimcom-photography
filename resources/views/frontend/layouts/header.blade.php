@@ -17,9 +17,9 @@
                                     data-sticky-logo="{{ asset('frontend') }}/assets/img/logo-2.png">
                                     <a href="{{ url('/') }}">
                                         @if($setting->first()->black_logo != null)
-                                            <img width="70%" src="{{ asset('uploads/setting') }}/{{ $setting->first()->black_logo }}" alt="logo">
+                                            <img width="120px" src="{{ asset('uploads/setting') }}/{{ $setting->first()->black_logo }}" alt="logo">
                                         @else
-                                            <img width="70%" src="{{ asset('uploads/setting') }}/{{ $setting->first()->white_logo }}" alt="logo" >
+                                            <img width="120px" src="{{ asset('uploads/setting') }}/{{ $setting->first()->white_logo }}" alt="logo" >
                                         @endif
                                     </a>
                                 </div>
@@ -35,10 +35,17 @@
                                 <nav class="vmm-menu menu-caret submenu-scale">
                                     <ul>
                                         <li><a href="{{ url('/') }}">Home</a></li>
-                                        <li><a href="{{ route('about.us') }}">About</a></li>
+                                        <li class="submenu-right dropdown_menu">
+                                            <a href="#">Service</a>
+                                            <ul>
+                                                <li><a href="{{ route('product.photography') }}">Product Photography<span></span></a></li>
+                                                <li><a href="{{ route('realestate.photography') }}">Real Estate Photography<span></span></a></li>
+                                                <li><a href="{{ route('fashion.photography') }}">Fashion Photography<span></span></a></li>
+                                            </ul>
+                                        </li>
                                         {{-- <li><a href="{{ route('gallery') }}">Gallery</a></li> --}}
-                                        <li><a href="{{ route('albums') }}">Albums</a></li>
-                                        <li><a href="{{ route('our.portfolio') }}">Portfolio</a></li>
+                                        {{-- <li><a href="{{ route('albums') }}">Albums</a></li>
+                                        <li><a href="{{ route('our.portfolio') }}">Portfolio</a></li> --}}
                                         <li><a href="{{ route('pricing') }}">Pricing</a></li>
                                         <li><a href="{{ route('contect') }}">Contact</a></li>
                                     </ul>

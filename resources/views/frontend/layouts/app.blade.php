@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!--- Basic Page Needs  -->
     <meta charset="utf-8">
@@ -13,7 +12,7 @@
     @endif
     <!-- Meta Tags -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="">
+    <meta name="description" content="aimcom">
     <meta name="author" content="AIMCOM">
     <meta name="keywords" content="aimcom">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,7 +74,7 @@
     <!-- End googletag Code -->
 </head>
 
-<body class="dark-bg">
+<body class="dark-bg" style="overflow-x: hidden">
     <div id="preloader"></div>
 
     <!-- Main Header -->
@@ -127,7 +126,6 @@
     <script type="text/javascript" src="{{ asset('frontend') }}/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <!-- Main Script -->
     <script src="{{ asset('frontend') }}/assets/js/theme.js"></script>
-
 
 </body>
 

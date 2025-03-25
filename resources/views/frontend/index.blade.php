@@ -187,7 +187,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff;font-family:Rubik;">
-                            Landscape Photography
+                            PHOTOGRAPHY & VIDEOGRAPHY
                         </div>
                         <!-- LAYER NR. 16 -->
                         <div class="tp-caption   tp-resizeme" id="slide-67-layer-3"
@@ -200,7 +200,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 20; min-width: 480px; max-width: 480px; white-space: normal; font-size: 25px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Rubik;">
-                            What you have caught on film is captured forever.
+                            Capturing Excellence, Crafting Stories
                         </div>
 
                     </li>
@@ -395,7 +395,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff;font-family:Rubik;">
-                            Potrait Photography</div>
+                            PHOTOGRAPHY & VIDEOGRAPHY</div>
                         <!-- LAYER NR. 33 -->
                         <div class="tp-caption   tp-resizeme" id="slide-66-layer-3"
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -407,7 +407,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 20; min-width: 480px; max-width: 480px; white-space: normal; font-size: 25px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Rubik;">
-                            Photography is a way of feeling, of touching, of loving.</div>
+                            Capturing Excellence, Crafting Stories.</div>
 
                     </li>
                     <!-- SLIDE  -->
@@ -604,7 +604,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 19; white-space: nowrap; font-size: 90px; line-height: 90px; font-weight: 500; color: #ffffff;font-family:Rubik;">
-                            Product Photography
+                            PHOTOGRAPHY & VIDEOGRAPHY
                         </div>
                         <!-- LAYER NR. 50 -->
                         <div class="tp-caption   tp-resizeme" id="slide-68-layer-3"
@@ -617,8 +617,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             style="z-index: 20; min-width: 480px; max-width: 480px; white-space: normal; font-size: 25px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Rubik;">
-                            Photography Is An Immediate Reaction.</div>
-
+                            Capturing Excellence, Crafting Stories.</div>
                     </li>
                 </ul>
                 <div class="tp-bannertimer tp-bottom" style="height: 5px; background: rgb(235, 157, 55);"></div>
@@ -640,13 +639,13 @@
                                 <i class="flaticon-016-len-1"></i>
                             </div>
                             <div class="ss-text">
-                                <h4>Awesome photography</h4>
+                                <h4>Product Photography</h4>
                                 <p>Photography is way of feeling of touching of
                                     loving. What you have caught on film captu
                                     red forever rememb little things. Photography
                                     is like a moment, an instant. You need a half
                                     second to get the photo.</p>
-                                <a href="{{ route('about.us') }}">Read More</a>
+                                <a href="{{ route('product.photography') }}">Read More</a>
                             </div>
 
                         </div>
@@ -660,15 +659,10 @@
                                 <i class="flaticon-016-len-1"></i>
                             </div>
                             <div class="ss-text">
-                                <h4>Awesome photography</h4>
-                                <p>Photography is way of feeling of touching of
-                                    loving. What you have caught on film captu
-                                    red forever rememb little things. Photography
-                                    is like a moment, an instant. You need a half
-                                    second to get the photo.</p>
-                                <a href="{{ route('about.us') }}">Read More</a>
+                                <h4>Real Estate Photography</h4>
+                                <p>Photography is way of feeling of touching of loving. What you have caught on film captu red forever rememb little things. Photography is like a moment, an instant. You need a half second to get the photo.</p>
+                                <a href="{{ route('product.photography') }}">Read More</a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -680,13 +674,13 @@
                                 <i class="flaticon-016-len-1"></i>
                             </div>
                             <div class="ss-text">
-                                <h4>Awesome photography</h4>
+                                <h4>Fashion Photography</h4>
                                 <p>Photography is way of feeling of touching of
                                     loving. What you have caught on film captu
                                     red forever rememb little things. Photography
                                     is like a moment, an instant. You need a half
                                     second to get the photo.</p>
-                                <a href="{{ route('about.us') }}">Read More</a>
+                                <a href="{{ route('fashion.photography') }}">Read More</a>
                             </div>
 
                         </div>

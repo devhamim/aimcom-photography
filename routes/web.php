@@ -19,6 +19,7 @@ use App\Http\Controllers\StoresController;
 use App\Http\Controllers\TermAndConditionController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VideoController;
+use App\Http\Controllers\OtherController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -42,7 +43,9 @@ Route::post('/message/store', [FrontendController::class, 'message_store'])->nam
 Route::get('/albums', [FrontendController::class, 'albums'])->name('albums');
 Route::get('/albums/details/{slug}', [FrontendController::class, 'albums_details'])->name('albums.details');
 Route::get('/pricing', [FrontendController::class, 'pricing'])->name('pricing');
-
+Route::get('/product/photography', [OtherController::class, 'product_photography'])->name('product.photography');
+Route::get('/realestate/photography', [OtherController::class, 'realestate_photography'])->name('realestate.photography');
+Route::get('/fashion/photography', [OtherController::class, 'fashion_photography'])->name('fashion.photography');
 
 // addtional page
 Route::get('/aboutus', [FrontendController::class, 'about_us'])->name('about.us');
