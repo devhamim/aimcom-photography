@@ -75,7 +75,7 @@
 </head>
 
 <body class="dark-bg" style="overflow-x: hidden">
-    <div id="preloader"></div>
+    {{-- <div id="preloader"></div> --}}
 
     <!-- Main Header -->
     @include('frontend.layouts.header')
